@@ -37,11 +37,21 @@
     border-radius: 100%;
 }
 
+/* Esercizio 4 */
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+
+.ex-4-square:hover {
+    opacity: 0;
+    background-color: blue;
+}
+
+/* Esercizio 5 */
 
 .ex-5-square {
     margin: 20px;
