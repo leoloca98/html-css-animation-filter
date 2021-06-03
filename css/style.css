@@ -208,3 +208,41 @@
         right: 20%;
     }
 }
+
+/* Esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: comp-spin 1.5s linear infinite;
+}
+
+@keyframes comp-spin{
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+
+    25%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+
+    50%{
+        left: calc(100% - 30px);
+        top: calc(100%)
+    }
+
+    75%{
+        left: calc(0% - 30px);
+        top: calc(100%);
+    }
+
+    95%{
+        left: calc(0% - 30px);
+        top: -10px;
+    }
+
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
